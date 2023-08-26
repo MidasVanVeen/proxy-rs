@@ -24,7 +24,6 @@ Options:
 
 - `-f, --file <FILE>`: Specify the path to the input file containing the list of proxy servers to be checked.
 - `-o, --outfile <OUTFILE>`: Specify the name of the output file where the working proxy servers will be saved. (Default: checked-proxies.txt)
-- `-p, --protocol <PROTOCOL>`: Specify the protocol to be used for the proxies. It can be "http", "https", "socks4", or "socks5". If not provided, the default is "http".
 - `-v, --verbose`: Enable verbose mode, providing more detailed output during the checking process.
 - `-t, --timeout <TIMEOUT>`: Set the timeout value (in seconds) for each proxy server check. (Default: 5)
 - `-r, --retries <RETRIES>`: Set the number of retries for failed proxy connection attempts. (Default: 3)
